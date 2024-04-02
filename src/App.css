@@ -1,0 +1,109 @@
+body {
+  overflow-x: hidden;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(1) .logo {
+    animation: logo-spin infinite 80s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+#landing-box {
+  position: absolute;
+  color: black;
+  bottom: -150px;
+  background: linear-gradient(to left, #ffc0cb,#800080);
+}
+
+#left-box {
+  position: absolute;
+  height: 78%;
+  width: 40px;
+  left: -20px;
+  top: 80px;
+  background: linear-gradient(to top, #800080,#4875bc);
+}
+
+#right-box {
+  position: absolute;
+  height: 78%;
+  width: 40px;
+  right: -20px;
+  top: 80px;
+  background: linear-gradient(to top, #ffc0cb,#ff5a5a);
+}
+
+#top-box {
+  position: absolute;
+  height: 40px;
+  width: 55%;
+  left: 350px;
+  top: -20px;
+  background: linear-gradient(to left, #ff5a5a, #4875bc);
+}
+
+
+#suma {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  background-color: #4875bc;
+}
+
+#resta {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  background-color: #ff5a5a;
+}
+
+#multiplicacion {
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+  background-color: #800080;
+}
+
+#division {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+  background-color: rgb(255, 130, 150);
+}
